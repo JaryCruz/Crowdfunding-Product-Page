@@ -6,7 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Frontend Mentor | Crowdfunding product page</title>
+  <title>Crowdfunding product page</title>
 </head>
 <body>
   <!-- Navbar -->
@@ -130,10 +130,10 @@
     <p>Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
     <i class="fa-solid fa-sharp fa-2x fa-xmark" data-close-btn></i>
 
-    <div class="pledge pledge-offer">
+    <div class="pledge pledge-offer disabled">
       <div class="select">
-        <button class="option-btn"></button>
-        <a href="#">Pledge with no reward</a>
+        <button class="btn-null"></button>
+        <p class="link-p">Pledge with no reward</p>
       </div>
       <p>Choose to support us without a reward if you simply believe in our project. As a backer, you will be signed up to receive product updates via email.</p>
     </div>
@@ -143,7 +143,7 @@
         <div class="select">
           <button class="option-btn" data-bamboo-btn></button>
           <div class="flex">
-            <a href="#">Bamboo Stand</a>
+            <p class="link-p">Bamboo Stand</p>
             <p class="offer">Pledge $25 or more</p>
           </div>
         </div>
@@ -172,7 +172,7 @@
         <div class="select">
           <button class="option-btn" data-black-btn></button>
           <div class="flex">
-            <a href="#">Black Edition Stand</a>
+            <p class="link-p">Black Edition Stand</p>
             <p class="offer">Pledge $75 or more</p>
           </div>
         </div>
@@ -199,9 +199,9 @@
     <div class="pledge disabled">
       <div class="pledge-offer">
         <div class="select">
-          <button class="option-btn"></button>
+          <button class="btn-null"></button>
           <div class="flex">
-            <a href="#">Mahogany Special Edition</a>
+            <p class="link-p">Mahogany Special Edition</p>
             <p class="offer">Pledge $200 or more</p>
           </div>
         </div>
@@ -217,7 +217,7 @@
 
   <!-- Success modal start -->
   <div class="success-modal" data-success-modal>
-    <img src="images/icon-check.svg" alt="icon-check">
+    <i class="fa-solid fa-check fa-2x"></i>
     <h3>Thanks for your support!</h3>
     <p>Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get an email once our campaign is completed.</p>
     <button class="btn" data-success-btn>Got it!</button>

@@ -99,8 +99,21 @@ p {
     background-color: rgb(136, 136, 136);
 }
 
+.btn-null {
+    height: 25px;
+    width: 25px;
+    border: 1px solid rgb(230, 230, 230);
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
 .offer {
     color: var(--moderate-cyan);
+}
+
+.link-p {
+    font-weight: 700;
 }
 
 /* Navbar */
@@ -136,7 +149,7 @@ nav .hamburger {
 /* Mobile Menu */
 .mobile-menu {
     position: absolute;
-    top: 10%;
+    top: 14%;
     border-radius: 10px;
     right: 5%;
     z-index: 5;
@@ -248,7 +261,7 @@ header p {
     background-color: rgb(230, 230, 230);
     border-radius: 30px;
 }
-  
+
 .progress-bar .progress {
     height: 100%;
     width: 89.9%;
@@ -352,7 +365,7 @@ header p {
     background-color: var(--moderate-cyan);
 }
 
-.pledge button:hover {
+.pledge .option-btn:hover {
     border: 1px solid var(--moderate-cyan);
 }
 
@@ -374,13 +387,9 @@ header p {
     margin-bottom: 20px;
 }
 
-.select a {
+.select .link-p {
     color: #000;
     font-weight: 700;
-}
-
-.select a:hover {
-    color: var(--moderate-cyan);
 }
 
 .pledge-offer p {
@@ -449,6 +458,13 @@ header p {
     line-height: 1.6;
 }
 
+.success-modal i {
+    color: #fff;
+    background: var(--moderate-cyan);
+    padding: 15px;
+    border-radius: 50%;
+}
+
 .overlay {
     position: fixed;
     display: none;
@@ -489,7 +505,7 @@ header p {
     }
 
     .btn {
-       padding: 15px 30px; 
+        padding: 15px 30px; 
     }
 
     .stats-section {

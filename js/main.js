@@ -1,6 +1,5 @@
 const nav = document.querySelector('[data-mobile-menu]');
 const overlay = document.querySelector('.overlay');
-const body = document.querySelector('body');
 const selectionModal = document.querySelector('[data-selection-modal]');
 const bookmarkIcon = document.querySelector('[data-bookmark-icon]');
 const bookmarkText = document.querySelector('[data-bookmark-text]');
@@ -53,7 +52,6 @@ function navToggle() {
 
     overlay.classList.toggle('shown');
     nav.classList.toggle('shown');
-    body.classList.toggle('no-scroll');
 }
 
 // Flip icons for hamburger menu
